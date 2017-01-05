@@ -69,5 +69,6 @@ for i in $(cat $filepath); do
 	echo -ne $bar
 	curr=$(($curr+1))
 done
+echo -ne "100%"
 echo ""
 echo "Image written to $imgfile"
