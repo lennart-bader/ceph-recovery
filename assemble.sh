@@ -27,7 +27,7 @@ fi
 
 echo "$filepath found"
 echo $delm
-imgfile="$outpath$vm.qcow2"
+imgfile="$outpath$vm.raw"
 if [ ! -d "data" ]; then
 	mkdir "data"
 fi
